@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0C6F3A226111ED00126781 /* ViewController+ExtremeAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C6F39226111ED00126781 /* ViewController+ExtremeAP.swift */; };
+		0B0C6F3C226115FD00126781 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C6F3B226115FD00126781 /* Constants.swift */; };
+		0B0C6F3E2261170600126781 /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C6F3D2261170600126781 /* MainTVC.swift */; };
+		0B7D8A0A2266809F0055B79D /* APManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D8A092266809F0055B79D /* APManager.swift */; };
+		0B7D8A0C226680BF0055B79D /* MoreInfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D8A0B226680BF0055B79D /* MoreInfoTVC.swift */; };
+		0B7D8A0E226680D60055B79D /* ClientTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D8A0D226680D60055B79D /* ClientTVC.swift */; };
+		0B965AA62260DCAF000B7C6E /* LoginTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B965AA52260DCAF000B7C6E /* LoginTVC.swift */; };
+		1A790DDAEE27E1B1E594AA9A /* Pods_Extreme_APTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3487CE12DC3A69F79B78832D /* Pods_Extreme_APTests.framework */; };
+		520FE17922A191B10056AEE3 /* APStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520FE17822A191B10056AEE3 /* APStats.swift */; };
+		6DB8919110B00F0E05882CC2 /* Pods_Extreme_AP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0882294BA3302A13EAD74C69 /* Pods_Extreme_AP.framework */; };
+		810094562252B0D100C6811E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810094552252B0D100C6811E /* AppDelegate.swift */; };
+		810094582252B0D100C6811E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810094572252B0D100C6811E /* ViewController.swift */; };
+		8100945D2252B0D200C6811E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8100945C2252B0D200C6811E /* Assets.xcassets */; };
+		810094602252B0D200C6811E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8100945E2252B0D200C6811E /* LaunchScreen.storyboard */; };
+		8100946B2252B0D200C6811E /* Extreme_APTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100946A2252B0D200C6811E /* Extreme_APTests.swift */; };
+		810094992254481800C6811E /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810094982254481800C6811E /* NetworkController.swift */; };
+		81170FF22256CC84001AC697 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81170FF12256CC84001AC697 /* UserManager.swift */; };
+		81170FF422594E47001AC697 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81170FF322594E47001AC697 /* AccessToken.swift */; };
+		81170FF622595015001AC697 /* APRadioInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81170FF522595015001AC697 /* APRadioInfo.swift */; };
+		81170FF82259545C001AC697 /* IotAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81170FF72259545C001AC697 /* IotAP.swift */; };
+		8117101D22596C64001AC697 /* APClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117101C22596C64001AC697 /* APClient.swift */; };
+		8117101F225AA496001AC697 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117101E225AA496001AC697 /* Logger.swift */; };
+		81171021225AB40A001AC697 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81171020225AB40A001AC697 /* BLEManager.swift */; };
+		81171023225C02D6001AC697 /* IotProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81171022225C02D6001AC697 /* IotProfile.swift */; };
+		81171028225C099B001AC697 /* NoisePerRadio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81171027225C099B001AC697 /* NoisePerRadio.swift */; };
+		8117102A225C09A3001AC697 /* RFQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81171029225C09A3001AC697 /* RFQuality.swift */; };
+		814B36C8226FACF80059F979 /* ChannelUtilization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814B36C7226FACF80059F979 /* ChannelUtilization.swift */; };
+		C040A98022939647008A77A8 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A97F22939647008A77A8 /* MailViewController.swift */; };
+		C040A98222939D5A008A77A8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C040A98122939D5A008A77A8 /* MessageUI.framework */; };
+		C040A9862294F5D5008A77A8 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040A9852294F5D4008A77A8 /* HelpViewController.swift */; };
+		C040A988229501E8008A77A8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C040A987229501E8008A77A8 /* WebKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C08D4B23228131C100BA6D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810094592252B0D100C6811E /* Main.storyboard */; };
+		C08D4B272281323100BA6D60 /* LookingForBeaconTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D4B262281323100BA6D60 /* LookingForBeaconTVC.swift */; };
+		C08D4B292281E17300BA6D60 /* APReportsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D4B282281E17300BA6D60 /* APReportsTVC.swift */; };
+		C0B3DDE0228B5F9100ED99D1 /* Timeseries.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B3DDDF228B5F9100ED99D1 /* Timeseries.swift */; };
+		C0B3DDE2228B708800ED99D1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B3DDE1228B708800ED99D1 /* Utils.swift */; };
+		C0BBD7E6229D82F20068CD4F /* SelectAPTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BBD7E5229D82F20068CD4F /* SelectAPTVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810094672252B0D200C6811E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8100944A2252B0D100C6811E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810094512252B0D100C6811E;
+			remoteInfo = "Extreme AP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0882294BA3302A13EAD74C69 /* Pods_Extreme_AP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extreme_AP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0C6F1422610C7700126781 /* ExtremeAP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExtremeAP-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B0C6F39226111ED00126781 /* ViewController+ExtremeAP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ExtremeAP.swift"; sourceTree = "<group>"; };
+		0B0C6F3B226115FD00126781 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0B0C6F3D2261170600126781 /* MainTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		0B7D8A092266809F0055B79D /* APManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APManager.swift; sourceTree = "<group>"; };
+		0B7D8A0B226680BF0055B79D /* MoreInfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoTVC.swift; sourceTree = "<group>"; };
+		0B7D8A0D226680D60055B79D /* ClientTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTVC.swift; sourceTree = "<group>"; };
+		0B965AA52260DCAF000B7C6E /* LoginTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTVC.swift; sourceTree = "<group>"; };
+		3487CE12DC3A69F79B78832D /* Pods_Extreme_APTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extreme_APTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35450E28A76780C189520398 /* Pods-Extreme APTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme APTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme APTests/Pods-Extreme APTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EB0507D88A795E4E6471533 /* Pods-Extreme AP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme AP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme AP/Pods-Extreme AP.debug.xcconfig"; sourceTree = "<group>"; };
+		520FE17822A191B10056AEE3 /* APStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APStats.swift; sourceTree = "<group>"; };
+		624CB2989564E5091D813219 /* Pods-Extreme APTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme APTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme APTests/Pods-Extreme APTests.debug.xcconfig"; sourceTree = "<group>"; };
+		810094522252B0D100C6811E /* Extreme AP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Extreme AP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810094552252B0D100C6811E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		810094572252B0D100C6811E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8100945A2252B0D100C6811E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8100945C2252B0D200C6811E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8100945F2252B0D200C6811E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		810094612252B0D200C6811E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810094662252B0D200C6811E /* Extreme APTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extreme APTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8100946A2252B0D200C6811E /* Extreme_APTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extreme_APTests.swift; sourceTree = "<group>"; };
+		8100946C2252B0D200C6811E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810094982254481800C6811E /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		81170FF12256CC84001AC697 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		81170FF322594E47001AC697 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		81170FF522595015001AC697 /* APRadioInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APRadioInfo.swift; sourceTree = "<group>"; };
+		81170FF72259545C001AC697 /* IotAP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IotAP.swift; sourceTree = "<group>"; };
+		8117101C22596C64001AC697 /* APClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APClient.swift; sourceTree = "<group>"; };
+		8117101E225AA496001AC697 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		81171020225AB40A001AC697 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		81171022225C02D6001AC697 /* IotProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IotProfile.swift; sourceTree = "<group>"; };
+		81171027225C099B001AC697 /* NoisePerRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoisePerRadio.swift; sourceTree = "<group>"; };
+		81171029225C09A3001AC697 /* RFQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFQuality.swift; sourceTree = "<group>"; };
+		814B36C7226FACF80059F979 /* ChannelUtilization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelUtilization.swift; sourceTree = "<group>"; };
+		C040A97F22939647008A77A8 /* MailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		C040A98122939D5A008A77A8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C040A9852294F5D4008A77A8 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		C040A987229501E8008A77A8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C08D4B262281323100BA6D60 /* LookingForBeaconTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookingForBeaconTVC.swift; sourceTree = "<group>"; };
+		C08D4B282281E17300BA6D60 /* APReportsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APReportsTVC.swift; sourceTree = "<group>"; };
+		C0B3DDDF228B5F9100ED99D1 /* Timeseries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeseries.swift; sourceTree = "<group>"; };
+		C0B3DDE1228B708800ED99D1 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C0BBD7E5229D82F20068CD4F /* SelectAPTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAPTVC.swift; sourceTree = "<group>"; };
+		E2C2997E0970C67F6369FFE1 /* Pods-Extreme AP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extreme AP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Extreme AP/Pods-Extreme AP.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8100944F2252B0D100C6811E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C040A988229501E8008A77A8 /* WebKit.framework in Frameworks */,
+				C040A98222939D5A008A77A8 /* MessageUI.framework in Frameworks */,
+				6DB8919110B00F0E05882CC2 /* Pods_Extreme_AP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810094632252B0D200C6811E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A790DDAEE27E1B1E594AA9A /* Pods_Extreme_APTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042171D98EBA5C815124A328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C040A987229501E8008A77A8 /* WebKit.framework */,
+				C040A98122939D5A008A77A8 /* MessageUI.framework */,
+				0882294BA3302A13EAD74C69 /* Pods_Extreme_AP.framework */,
+				3487CE12DC3A69F79B78832D /* Pods_Extreme_APTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B0C6F38226111C800126781 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C6F39226111ED00126781 /* ViewController+ExtremeAP.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0B0C6F3F2261191600126781 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8117101E225AA496001AC697 /* Logger.swift */,
+				0B0C6F3B226115FD00126781 /* Constants.swift */,
+				0B0C6F38226111C800126781 /* Extensions */,
+				C0B3DDE1228B708800ED99D1 /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0B965AA42260DC88000B7C6E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0B965AA52260DCAF000B7C6E /* LoginTVC.swift */,
+				0B0C6F3D2261170600126781 /* MainTVC.swift */,
+				0B7D8A0B226680BF0055B79D /* MoreInfoTVC.swift */,
+				0B7D8A0D226680D60055B79D /* ClientTVC.swift */,
+				C08D4B262281323100BA6D60 /* LookingForBeaconTVC.swift */,
+				C08D4B282281E17300BA6D60 /* APReportsTVC.swift */,
+				C0BBD7E5229D82F20068CD4F /* SelectAPTVC.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		62E6AFC8F0AB815CAB7B6BC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EB0507D88A795E4E6471533 /* Pods-Extreme AP.debug.xcconfig */,
+				E2C2997E0970C67F6369FFE1 /* Pods-Extreme AP.release.xcconfig */,
+				624CB2989564E5091D813219 /* Pods-Extreme APTests.debug.xcconfig */,
+				35450E28A76780C189520398 /* Pods-Extreme APTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		810094492252B0D100C6811E = {
+			isa = PBXGroup;
+			children = (
+				810094542252B0D100C6811E /* Extreme AP */,
+				810094692252B0D200C6811E /* Extreme APTests */,
+				810094532252B0D100C6811E /* Products */,
+				62E6AFC8F0AB815CAB7B6BC3 /* Pods */,
+				042171D98EBA5C815124A328 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		810094532252B0D100C6811E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810094522252B0D100C6811E /* Extreme AP.app */,
+				810094662252B0D200C6811E /* Extreme APTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810094542252B0D100C6811E /* Extreme AP */ = {
+			isa = PBXGroup;
+			children = (
+				8100945C2252B0D200C6811E /* Assets.xcassets */,
+				8100945E2252B0D200C6811E /* LaunchScreen.storyboard */,
+				810094592252B0D100C6811E /* Main.storyboard */,
+				810094552252B0D100C6811E /* AppDelegate.swift */,
+				81171024225C08E3001AC697 /* Objects */,
+				810094572252B0D100C6811E /* ViewController.swift */,
+				C040A97F22939647008A77A8 /* MailViewController.swift */,
+				C040A9852294F5D4008A77A8 /* HelpViewController.swift */,
+				0B0C6F3F2261191600126781 /* Helpers */,
+				0B965AA42260DC88000B7C6E /* UI */,
+				81171026225C0914001AC697 /* Managers */,
+				810094612252B0D200C6811E /* Info.plist */,
+				0B0C6F1422610C7700126781 /* ExtremeAP-Bridging-Header.h */,
+			);
+			path = "Extreme AP";
+			sourceTree = "<group>";
+		};
+		810094692252B0D200C6811E /* Extreme APTests */ = {
+			isa = PBXGroup;
+			children = (
+				8100946A2252B0D200C6811E /* Extreme_APTests.swift */,
+				8100946C2252B0D200C6811E /* Info.plist */,
+			);
+			path = "Extreme APTests";
+			sourceTree = "<group>";
+		};
+		81171024225C08E3001AC697 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				81170FF72259545C001AC697 /* IotAP.swift */,
+				81170FF322594E47001AC697 /* AccessToken.swift */,
+				81170FF522595015001AC697 /* APRadioInfo.swift */,
+				8117101C22596C64001AC697 /* APClient.swift */,
+				81171022225C02D6001AC697 /* IotProfile.swift */,
+				81171029225C09A3001AC697 /* RFQuality.swift */,
+				81171027225C099B001AC697 /* NoisePerRadio.swift */,
+				814B36C7226FACF80059F979 /* ChannelUtilization.swift */,
+				C0B3DDDF228B5F9100ED99D1 /* Timeseries.swift */,
+				520FE17822A191B10056AEE3 /* APStats.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		81171026225C0914001AC697 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				81170FF12256CC84001AC697 /* UserManager.swift */,
+				81171020225AB40A001AC697 /* BLEManager.swift */,
+				810094982254481800C6811E /* NetworkController.swift */,
+				0B7D8A092266809F0055B79D /* APManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810094512252B0D100C6811E /* Extreme AP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8100946F2252B0D200C6811E /* Build configuration list for PBXNativeTarget "Extreme AP" */;
+			buildPhases = (
+				AEE340C01823E0E4B44526CA /* [CP] Check Pods Manifest.lock */,
+				8100944E2252B0D100C6811E /* Sources */,
+				8100944F2252B0D100C6811E /* Frameworks */,
+				810094502252B0D100C6811E /* Resources */,
+				63C420805BA3F4B28D686AB3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Extreme AP";
+			productName = "Extreme AP";
+			productReference = 810094522252B0D100C6811E /* Extreme AP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		810094652252B0D200C6811E /* Extreme APTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810094722252B0D200C6811E /* Build configuration list for PBXNativeTarget "Extreme APTests" */;
+			buildPhases = (
+				EEE4E9FEDD156634D4921138 /* [CP] Check Pods Manifest.lock */,
+				810094622252B0D200C6811E /* Sources */,
+				810094632252B0D200C6811E /* Frameworks */,
+				810094642252B0D200C6811E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810094682252B0D200C6811E /* PBXTargetDependency */,
+			);
+			name = "Extreme APTests";
+			productName = "Extreme APTests";
+			productReference = 810094662252B0D200C6811E /* Extreme APTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8100944A2252B0D100C6811E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Extreme Networks";
+				TargetAttributes = {
+					810094512252B0D100C6811E = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					810094652252B0D200C6811E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 810094512252B0D100C6811E;
+					};
+				};
+			};
+			buildConfigurationList = 8100944D2252B0D100C6811E /* Build configuration list for PBXProject "Extreme AP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 810094492252B0D100C6811E;
+			productRefGroup = 810094532252B0D100C6811E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810094512252B0D100C6811E /* Extreme AP */,
+				810094652252B0D200C6811E /* Extreme APTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810094502252B0D100C6811E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08D4B23228131C100BA6D60 /* Main.storyboard in Resources */,
+				810094602252B0D200C6811E /* LaunchScreen.storyboard in Resources */,
+				8100945D2252B0D200C6811E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810094642252B0D200C6811E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63C420805BA3F4B28D686AB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Extreme AP/Pods-Extreme AP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Extreme AP/Pods-Extreme AP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE340C01823E0E4B44526CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Extreme AP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE4E9FEDD156634D4921138 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Extreme APTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8100944E2252B0D100C6811E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81170FF22256CC84001AC697 /* UserManager.swift in Sources */,
+				C08D4B272281323100BA6D60 /* LookingForBeaconTVC.swift in Sources */,
+				0B0C6F3E2261170600126781 /* MainTVC.swift in Sources */,
+				0B965AA62260DCAF000B7C6E /* LoginTVC.swift in Sources */,
+				8117102A225C09A3001AC697 /* RFQuality.swift in Sources */,
+				C0B3DDE2228B708800ED99D1 /* Utils.swift in Sources */,
+				0B0C6F3A226111ED00126781 /* ViewController+ExtremeAP.swift in Sources */,
+				8117101D22596C64001AC697 /* APClient.swift in Sources */,
+				520FE17922A191B10056AEE3 /* APStats.swift in Sources */,
+				0B7D8A0A2266809F0055B79D /* APManager.swift in Sources */,
+				C040A98022939647008A77A8 /* MailViewController.swift in Sources */,
+				810094992254481800C6811E /* NetworkController.swift in Sources */,
+				810094582252B0D100C6811E /* ViewController.swift in Sources */,
+				0B0C6F3C226115FD00126781 /* Constants.swift in Sources */,
+				C040A9862294F5D5008A77A8 /* HelpViewController.swift in Sources */,
+				8117101F225AA496001AC697 /* Logger.swift in Sources */,
+				81170FF82259545C001AC697 /* IotAP.swift in Sources */,
+				810094562252B0D100C6811E /* AppDelegate.swift in Sources */,
+				81171021225AB40A001AC697 /* BLEManager.swift in Sources */,
+				C0BBD7E6229D82F20068CD4F /* SelectAPTVC.swift in Sources */,
+				C08D4B292281E17300BA6D60 /* APReportsTVC.swift in Sources */,
+				814B36C8226FACF80059F979 /* ChannelUtilization.swift in Sources */,
+				0B7D8A0E226680D60055B79D /* ClientTVC.swift in Sources */,
+				0B7D8A0C226680BF0055B79D /* MoreInfoTVC.swift in Sources */,
+				81170FF622595015001AC697 /* APRadioInfo.swift in Sources */,
+				81171023225C02D6001AC697 /* IotProfile.swift in Sources */,
+				C0B3DDE0228B5F9100ED99D1 /* Timeseries.swift in Sources */,
+				81171028225C099B001AC697 /* NoisePerRadio.swift in Sources */,
+				81170FF422594E47001AC697 /* AccessToken.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810094622252B0D200C6811E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8100946B2252B0D200C6811E /* Extreme_APTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810094682252B0D200C6811E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810094512252B0D100C6811E /* Extreme AP */;
+			targetProxy = 810094672252B0D200C6811E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		810094592252B0D100C6811E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8100945A2252B0D100C6811E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8100945E2252B0D200C6811E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8100945F2252B0D200C6811E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8100946D2252B0D200C6811E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8100946E2252B0D200C6811E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810094702252B0D200C6811E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB0507D88A795E4E6471533 /* Pods-Extreme AP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMEBR46YUR;
+				INFOPLIST_FILE = "Extreme AP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.extreme.OmniWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		810094712252B0D200C6811E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C2997E0970C67F6369FFE1 /* Pods-Extreme AP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMEBR46YUR;
+				INFOPLIST_FILE = "Extreme AP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.extreme.OmniWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		810094732252B0D200C6811E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 624CB2989564E5091D813219 /* Pods-Extreme APTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMEBR46YUR;
+				INFOPLIST_FILE = "Extreme APTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.extreme.Extreme-APTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Extreme AP.app/Extreme AP";
+			};
+			name = Debug;
+		};
+		810094742252B0D200C6811E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35450E28A76780C189520398 /* Pods-Extreme APTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMEBR46YUR;
+				INFOPLIST_FILE = "Extreme APTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.extreme.Extreme-APTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Extreme AP.app/Extreme AP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8100944D2252B0D100C6811E /* Build configuration list for PBXProject "Extreme AP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8100946D2252B0D200C6811E /* Debug */,
+				8100946E2252B0D200C6811E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8100946F2252B0D200C6811E /* Build configuration list for PBXNativeTarget "Extreme AP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810094702252B0D200C6811E /* Debug */,
+				810094712252B0D200C6811E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810094722252B0D200C6811E /* Build configuration list for PBXNativeTarget "Extreme APTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810094732252B0D200C6811E /* Debug */,
+				810094742252B0D200C6811E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8100944A2252B0D100C6811E /* Project object */;
+}

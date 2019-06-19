@@ -1,0 +1,6 @@
+framework module Pods_Extreme_AP {
+  umbrella header "Pods-Extreme AP-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Extreme AP' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SwiftyJSON', '~> 4.2.0'
+  pod 'Alamofire', '~> 4.8.0'
+  pod 'ObjectMapper', '~> 3.4.2'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'SwiftChart'
+
+  # Pods for Extreme AP
+
+  target 'Extreme APTests' do
+    inherit! :search_paths
+    # Pods for QA
+  end
+
+end
